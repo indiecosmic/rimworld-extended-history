@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtendedHistory", "ExtendedHistory.csproj", "{94475ABD-232A-4C95-B3BE-68AAB9D4E320}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mod", "Mod", "{F6D44A63-514E-4E2E-83DB-700A7F110AD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "About", "About", "{B59FFBAF-B070-4617-B7E5-764168F5C15C}"
+	ProjectSection(SolutionItems) = preProject
+		ExtendedHistory\About\About.xml = ExtendedHistory\About\About.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Defs", "Defs", "{A877B048-483C-4919-99A6-D08389B9868B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HistoryAutoRecorderDefs", "HistoryAutoRecorderDefs", "{8BF6B41D-F0AB-49C8-BA03-0303847410DF}"
+	ProjectSection(SolutionItems) = preProject
+		ExtendedHistory\Defs\HistoryAutoRecorderDefs\HistoryAutoRecorders.xml = ExtendedHistory\Defs\HistoryAutoRecorderDefs\HistoryAutoRecorders.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HistoryAutoRecorderGroupDefs", "HistoryAutoRecorderGroupDefs", "{DC6FB650-E7A7-43FF-A48A-38AE6677FE72}"
+	ProjectSection(SolutionItems) = preProject
+		ExtendedHistory\Defs\HistoryAutoRecorderGroupDefs\HistoryAutoRecorderGroups.xml = ExtendedHistory\Defs\HistoryAutoRecorderGroupDefs\HistoryAutoRecorderGroups.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94475ABD-232A-4C95-B3BE-68AAB9D4E320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94475ABD-232A-4C95-B3BE-68AAB9D4E320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94475ABD-232A-4C95-B3BE-68AAB9D4E320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94475ABD-232A-4C95-B3BE-68AAB9D4E320}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B59FFBAF-B070-4617-B7E5-764168F5C15C} = {F6D44A63-514E-4E2E-83DB-700A7F110AD9}
+		{A877B048-483C-4919-99A6-D08389B9868B} = {F6D44A63-514E-4E2E-83DB-700A7F110AD9}
+		{8BF6B41D-F0AB-49C8-BA03-0303847410DF} = {A877B048-483C-4919-99A6-D08389B9868B}
+		{DC6FB650-E7A7-43FF-A48A-38AE6677FE72} = {A877B048-483C-4919-99A6-D08389B9868B}
+	EndGlobalSection
+EndGlobal

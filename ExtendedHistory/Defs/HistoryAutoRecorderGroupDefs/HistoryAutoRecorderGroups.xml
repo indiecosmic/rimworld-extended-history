@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<HistoryAutoRecorderGroupDefs>
+
+  <HistoryAutoRecorderGroupDef>
+    <defName>Food</defName>
+    <label>Food</label>
+	<graphLabelY>Amount</graphLabelY>
+	<historyAutoRecorderDefs>
+    <li>MealsTotal</li>
+    <li>RawFoodTotal</li>
+    <li>SimpleMealsTotal</li>
+    <li>FineMealsTotal</li>
+    <li>LavishMealsTotal</li>
+	</historyAutoRecorderDefs>
+  </HistoryAutoRecorderGroupDef>
+    
+</HistoryAutoRecorderGroupDefs>
