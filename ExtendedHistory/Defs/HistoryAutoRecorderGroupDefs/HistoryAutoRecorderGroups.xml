@@ -21,6 +21,8 @@
     <historyAutoRecorderDefs>
       <li>TransmittedPower</li>
       <li>StoredPower</li>
+      <li>PowerGenerated</li>
+      <li>PowerConsumed</li>
     </historyAutoRecorderDefs>
   </HistoryAutoRecorderGroupDef>
     

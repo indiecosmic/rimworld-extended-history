@@ -46,8 +46,8 @@
   <!-- Power -->
   <HistoryAutoRecorderDef>
     <defName>TransmittedPower</defName>
-    <label>transmitted power (total)</label>
-    <graphColor>RGBA(1, 0, 0, 1)</graphColor>
+    <label>net power (total)</label>
+    <graphColor>RGBA(1, 1, 0, 1)</graphColor>
     <recordTicksFrequency>10000</recordTicksFrequency>
     <workerClass>IndieSoft.RimWorld.ExtendedHistory.Power.HistoryAutoRecorderWorker_TransmittedPower</workerClass>
   </HistoryAutoRecorderDef>
@@ -55,10 +55,26 @@
   <HistoryAutoRecorderDef>
     <defName>StoredPower</defName>
     <label>Stored power (total)</label>
-    <graphColor>RGBA(0, 1, 0, 1)</graphColor>
+    <graphColor>RGBA(0, 0, 1, 1)</graphColor>
     <recordTicksFrequency>10000</recordTicksFrequency>
     <workerClass>IndieSoft.RimWorld.ExtendedHistory.Power.HistoryAutoRecorderWorker_StoredPower</workerClass>
   </HistoryAutoRecorderDef>
+
+  <HistoryAutoRecorderDef>
+    <defName>PowerGenerated</defName>
+    <label>power generated</label>
+    <graphColor>RGBA(0, 1, 0, 1)</graphColor>
+    <recordTicksFrequency>10000</recordTicksFrequency>
+    <workerClass>IndieSoft.RimWorld.ExtendedHistory.Power.HistoryAutoRecorderWorker_PowerGenerated</workerClass>
+  </HistoryAutoRecorderDef>
+
+  <HistoryAutoRecorderDef>
+    <defName>PowerConsumed</defName>
+    <label>power consumed</label>
+    <graphColor>RGBA(1, 0, 0, 1)</graphColor>
+    <recordTicksFrequency>10000</recordTicksFrequency>
+    <workerClass>IndieSoft.RimWorld.ExtendedHistory.Power.HistoryAutoRecorderWorker_PowerConsumed</workerClass>
+  </HistoryAutoRecorderDef>  
   <!-- // Power -->
 
 

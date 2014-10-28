@@ -52,6 +52,8 @@
     <Compile Include="Food\HistoryAutoRecorderWorker_TotalMeals.cs" />
     <Compile Include="Food\HistoryAutoRecorderWorker_TotalRawFood.cs" />
     <Compile Include="Power\Base\HistoryAutoRecorderWorker_PowerBase.cs" />
+    <Compile Include="Power\HistoryAutoRecorderWorker_PowerConsumed.cs" />
+    <Compile Include="Power\HistoryAutoRecorderWorker_PowerGenerated.cs" />
     <Compile Include="Power\HistoryAutoRecorderWorker_StoredPower.cs" />
     <Compile Include="Power\HistoryAutoRecorderWorker_TransmittedPower.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
