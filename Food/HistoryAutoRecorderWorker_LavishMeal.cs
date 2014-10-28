@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using Verse;
 
-namespace IndieSoft.RimWorld.ExtendedHistory
+namespace IndieSoft.RimWorld.ExtendedHistory.Food
 {
     public class HistoryAutoRecorderWorker_LavishMeal : HistoryAutoRecorderWorker_MealBase
     {

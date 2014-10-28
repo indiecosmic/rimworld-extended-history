@@ -7,7 +7,7 @@
     <label>simple meals</label>
     <graphColor>RGBA(1, 1, 0, 1)</graphColor>
     <recordTicksFrequency>10000</recordTicksFrequency>
-    <workerClass>IndieSoft.RimWorld.ExtendedHistory.HistoryAutoRecorderWorker_SimpleMeal</workerClass>
+    <workerClass>IndieSoft.RimWorld.ExtendedHistory.Food.HistoryAutoRecorderWorker_SimpleMeal</workerClass>
   </HistoryAutoRecorderDef>
 
   <HistoryAutoRecorderDef>
@@ -15,7 +15,7 @@
     <label>fine meals</label>
     <graphColor>RGBA(1, 0.3, 0, 1)</graphColor>
     <recordTicksFrequency>10000</recordTicksFrequency>
-    <workerClass>IndieSoft.RimWorld.ExtendedHistory.HistoryAutoRecorderWorker_FineMeal</workerClass>
+    <workerClass>IndieSoft.RimWorld.ExtendedHistory.Food.HistoryAutoRecorderWorker_FineMeal</workerClass>
   </HistoryAutoRecorderDef>
 
   <HistoryAutoRecorderDef>
@@ -23,7 +23,7 @@
     <label>lavish meals</label>
     <graphColor>RGBA(0.3, 0.7, 0.7, 1)</graphColor>
     <recordTicksFrequency>10000</recordTicksFrequency>
-    <workerClass>IndieSoft.RimWorld.ExtendedHistory.HistoryAutoRecorderWorker_LavishMeal</workerClass>
+    <workerClass>IndieSoft.RimWorld.ExtendedHistory.Food.HistoryAutoRecorderWorker_LavishMeal</workerClass>
   </HistoryAutoRecorderDef>
 
   <HistoryAutoRecorderDef>
@@ -31,7 +31,7 @@
     <label>meals (total)</label>
     <graphColor>RGBA(0.9, 0.7, 0, 1)</graphColor>
     <recordTicksFrequency>10000</recordTicksFrequency>
-    <workerClass>IndieSoft.RimWorld.ExtendedHistory.HistoryAutoRecorderWorker_TotalMeals</workerClass>
+    <workerClass>IndieSoft.RimWorld.ExtendedHistory.Food.HistoryAutoRecorderWorker_TotalMeals</workerClass>
   </HistoryAutoRecorderDef>
 
   <HistoryAutoRecorderDef>
@@ -39,7 +39,7 @@
     <label>raw food (total)</label>
     <graphColor>RGBA(0.5, 0.7, 0, 1)</graphColor>
     <recordTicksFrequency>10000</recordTicksFrequency>
-    <workerClass>IndieSoft.RimWorld.ExtendedHistory.HistoryAutoRecorderWorker_TotalRawFood</workerClass>
+    <workerClass>IndieSoft.RimWorld.ExtendedHistory.Food.HistoryAutoRecorderWorker_TotalRawFood</workerClass>
   </HistoryAutoRecorderDef>
   <!-- // Food -->
 
