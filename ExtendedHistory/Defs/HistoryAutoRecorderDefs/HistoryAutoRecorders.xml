@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <HistoryAutoRecorderDefs>
 
+  <!-- Food -->
   <HistoryAutoRecorderDef>
     <defName>SimpleMealsTotal</defName>
     <label>simple meals</label>
@@ -40,5 +41,25 @@
     <recordTicksFrequency>10000</recordTicksFrequency>
     <workerClass>IndieSoft.RimWorld.ExtendedHistory.HistoryAutoRecorderWorker_TotalRawFood</workerClass>
   </HistoryAutoRecorderDef>
+  <!-- // Food -->
+
+  <!-- Power -->
+  <HistoryAutoRecorderDef>
+    <defName>TransmittedPower</defName>
+    <label>transmitted power (total)</label>
+    <graphColor>RGBA(1, 0, 0, 1)</graphColor>
+    <recordTicksFrequency>10000</recordTicksFrequency>
+    <workerClass>IndieSoft.RimWorld.ExtendedHistory.Power.HistoryAutoRecorderWorker_TransmittedPower</workerClass>
+  </HistoryAutoRecorderDef>
+
+  <HistoryAutoRecorderDef>
+    <defName>StoredPower</defName>
+    <label>Stored power (total)</label>
+    <graphColor>RGBA(0, 1, 0, 1)</graphColor>
+    <recordTicksFrequency>10000</recordTicksFrequency>
+    <workerClass>IndieSoft.RimWorld.ExtendedHistory.Power.HistoryAutoRecorderWorker_StoredPower</workerClass>
+  </HistoryAutoRecorderDef>
+  <!-- // Power -->
+
 
 </HistoryAutoRecorderDefs>

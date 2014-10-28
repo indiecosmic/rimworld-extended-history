@@ -13,5 +13,15 @@
     <li>LavishMealsTotal</li>
 	</historyAutoRecorderDefs>
   </HistoryAutoRecorderGroupDef>
+
+  <HistoryAutoRecorderGroupDef>
+    <defName>Power</defName>
+    <label>Power</label>
+    <graphLabelY>W / Wd</graphLabelY>
+    <historyAutoRecorderDefs>
+      <li>TransmittedPower</li>
+      <li>StoredPower</li>
+    </historyAutoRecorderDefs>
+  </HistoryAutoRecorderGroupDef>
     
 </HistoryAutoRecorderGroupDefs>

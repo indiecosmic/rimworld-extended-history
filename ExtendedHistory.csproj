@@ -45,12 +45,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HistoryAutoRecorderWorker_FineMeal.cs" />
-    <Compile Include="HistoryAutoRecorderWorker_LavishMeal.cs" />
-    <Compile Include="HistoryAutoRecorderWorker_SimpleMeal.cs" />
-    <Compile Include="HistoryAutoRecorderWorker_MealBase.cs" />
-    <Compile Include="HistoryAutoRecorderWorker_TotalMeals.cs" />
-    <Compile Include="HistoryAutoRecorderWorker_TotalRawFood.cs" />
+    <Compile Include="Food\HistoryAutoRecorderWorker_FineMeal.cs" />
+    <Compile Include="Food\HistoryAutoRecorderWorker_LavishMeal.cs" />
+    <Compile Include="Food\HistoryAutoRecorderWorker_SimpleMeal.cs" />
+    <Compile Include="Food\Base\HistoryAutoRecorderWorker_MealBase.cs" />
+    <Compile Include="Food\HistoryAutoRecorderWorker_TotalMeals.cs" />
+    <Compile Include="Food\HistoryAutoRecorderWorker_TotalRawFood.cs" />
+    <Compile Include="Power\Base\HistoryAutoRecorderWorker_PowerBase.cs" />
+    <Compile Include="Power\HistoryAutoRecorderWorker_StoredPower.cs" />
+    <Compile Include="Power\HistoryAutoRecorderWorker_TransmittedPower.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
