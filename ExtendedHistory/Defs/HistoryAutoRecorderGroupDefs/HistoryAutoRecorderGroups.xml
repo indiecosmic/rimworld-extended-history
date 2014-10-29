@@ -6,8 +6,10 @@
     <label>Food</label>
 	<graphLabelY>Amount</graphLabelY>
 	<historyAutoRecorderDefs>
+    <li>NutrientPasteTotal</li>
     <li>MealsTotal</li>
     <li>RawFoodTotal</li>
+    <li>PlantFoodTotal</li>
     <li>SimpleMealsTotal</li>
     <li>FineMealsTotal</li>
     <li>LavishMealsTotal</li>

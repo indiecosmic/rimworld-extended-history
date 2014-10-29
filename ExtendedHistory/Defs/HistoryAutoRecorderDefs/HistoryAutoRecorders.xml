@@ -3,6 +3,14 @@
 
   <!-- Food -->
   <HistoryAutoRecorderDef>
+    <defName>NutrientPasteTotal</defName>
+    <label>nutrient paste meals</label>
+    <graphColor>RGBA(1, 1, 1, 1)</graphColor>
+    <recordTicksFrequency>10000</recordTicksFrequency>
+    <workerClass>IndieSoft.RimWorld.ExtendedHistory.Food.HistoryAutoRecorderWorker_NutrientPaste</workerClass>
+  </HistoryAutoRecorderDef>
+
+  <HistoryAutoRecorderDef>
     <defName>SimpleMealsTotal</defName>
     <label>simple meals</label>
     <graphColor>RGBA(1, 1, 0, 1)</graphColor>
@@ -36,10 +44,18 @@
 
   <HistoryAutoRecorderDef>
     <defName>RawFoodTotal</defName>
-    <label>raw food (total)</label>
-    <graphColor>RGBA(0.5, 0.7, 0, 1)</graphColor>
+    <label>meat</label>
+    <graphColor>RGBA(1, 0, 0, 1)</graphColor>
     <recordTicksFrequency>10000</recordTicksFrequency>
-    <workerClass>IndieSoft.RimWorld.ExtendedHistory.Food.HistoryAutoRecorderWorker_TotalRawFood</workerClass>
+    <workerClass>IndieSoft.RimWorld.ExtendedHistory.Food.HistoryAutoRecorderWorker_RawFood</workerClass>
+  </HistoryAutoRecorderDef>
+
+  <HistoryAutoRecorderDef>
+    <defName>PlantFoodTotal</defName>
+    <label>plants</label>
+    <graphColor>RGBA(0, 1, 0, 1)</graphColor>
+    <recordTicksFrequency>10000</recordTicksFrequency>
+    <workerClass>IndieSoft.RimWorld.ExtendedHistory.Food.HistoryAutoRecorderWorker_PlantFood</workerClass>
   </HistoryAutoRecorderDef>
   <!-- // Food -->
 

@@ -47,6 +47,9 @@
   <ItemGroup>
     <Compile Include="Food\HistoryAutoRecorderWorker_FineMeal.cs" />
     <Compile Include="Food\HistoryAutoRecorderWorker_LavishMeal.cs" />
+    <Compile Include="Food\HistoryAutoRecorderWorker_NutrientPaste.cs" />
+    <Compile Include="Food\HistoryAutoRecorderWorker_PlantFood.cs" />
+    <Compile Include="Food\HistoryAutoRecorderWorker_RawFood.cs" />
     <Compile Include="Food\HistoryAutoRecorderWorker_SimpleMeal.cs" />
     <Compile Include="Food\Base\HistoryAutoRecorderWorker_MealBase.cs" />
     <Compile Include="Food\HistoryAutoRecorderWorker_TotalMeals.cs" />
