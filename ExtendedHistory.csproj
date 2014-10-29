@@ -45,15 +45,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Food\HistoryAutoRecorderWorker_FineMeal.cs" />
-    <Compile Include="Food\HistoryAutoRecorderWorker_LavishMeal.cs" />
-    <Compile Include="Food\HistoryAutoRecorderWorker_NutrientPaste.cs" />
-    <Compile Include="Food\HistoryAutoRecorderWorker_PlantFood.cs" />
-    <Compile Include="Food\HistoryAutoRecorderWorker_RawFood.cs" />
-    <Compile Include="Food\HistoryAutoRecorderWorker_SimpleMeal.cs" />
+    <Compile Include="Food\Meals\HistoryAutoRecorderWorker_FineMeal.cs" />
+    <Compile Include="Food\Meals\HistoryAutoRecorderWorker_LavishMeal.cs" />
+    <Compile Include="Food\Meals\HistoryAutoRecorderWorker_NutrientPaste.cs" />
+    <Compile Include="Food\Raw\HistoryAutoRecorderWorker_PlantFood.cs" />
+    <Compile Include="Food\Raw\HistoryAutoRecorderWorker_RawFood.cs" />
+    <Compile Include="Food\Meals\HistoryAutoRecorderWorker_SimpleMeal.cs" />
     <Compile Include="Food\Base\HistoryAutoRecorderWorker_MealBase.cs" />
-    <Compile Include="Food\HistoryAutoRecorderWorker_TotalMeals.cs" />
-    <Compile Include="Food\HistoryAutoRecorderWorker_TotalRawFood.cs" />
+    <Compile Include="Food\Meals\HistoryAutoRecorderWorker_TotalMeals.cs" />
     <Compile Include="Power\Base\HistoryAutoRecorderWorker_PowerBase.cs" />
     <Compile Include="Power\HistoryAutoRecorderWorker_PowerConsumed.cs" />
     <Compile Include="Power\HistoryAutoRecorderWorker_PowerGenerated.cs" />
