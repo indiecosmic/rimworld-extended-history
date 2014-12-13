@@ -2,18 +2,25 @@
 <HistoryAutoRecorderGroupDefs>
 
   <HistoryAutoRecorderGroupDef>
-    <defName>Food</defName>
-    <label>Food</label>
+    <defName>RawFood</defName>
+    <label>raw food</label>
 	<graphLabelY>Amount</graphLabelY>
 	<historyAutoRecorderDefs>
-    <li>NutrientPasteTotal</li>
-    <li>MealsTotal</li>
     <li>RawFoodTotal</li>
     <li>PlantFoodTotal</li>
-    <li>SimpleMealsTotal</li>
-    <li>FineMealsTotal</li>
-    <li>LavishMealsTotal</li>
 	</historyAutoRecorderDefs>
+  </HistoryAutoRecorderGroupDef>
+
+  <HistoryAutoRecorderGroupDef>
+    <defName>Meals</defName>
+    <label>meals</label>
+    <graphLabelY>Count</graphLabelY>
+    <historyAutoRecorderDefs>
+      <li>NutrientPasteTotal</li>
+      <li>SimpleMealsTotal</li>
+      <li>FineMealsTotal</li>
+      <li>LavishMealsTotal</li>
+    </historyAutoRecorderDefs>    
   </HistoryAutoRecorderGroupDef>
 
   <HistoryAutoRecorderGroupDef>

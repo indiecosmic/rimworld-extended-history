@@ -35,14 +35,6 @@
   </HistoryAutoRecorderDef>
 
   <HistoryAutoRecorderDef>
-    <defName>MealsTotal</defName>
-    <label>meals (total)</label>
-    <graphColor>RGBA(0.9, 0.7, 0, 1)</graphColor>
-    <recordTicksFrequency>10000</recordTicksFrequency>
-    <workerClass>IndieSoft.RimWorld.ExtendedHistory.Food.HistoryAutoRecorderWorker_TotalMeals</workerClass>
-  </HistoryAutoRecorderDef>
-
-  <HistoryAutoRecorderDef>
     <defName>RawFoodTotal</defName>
     <label>meat</label>
     <graphColor>RGBA(1, 0, 0, 1)</graphColor>
