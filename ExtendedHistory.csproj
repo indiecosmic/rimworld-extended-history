@@ -42,9 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Alerts\Alert_PlantReadyForHarvest.cs" />
+    <Compile Include="Alerts\Alert_TradeShipInRange.cs" />
     <Compile Include="Food\Meals\HistoryAutoRecorderWorker_FineMeal.cs" />
     <Compile Include="Food\Meals\HistoryAutoRecorderWorker_LavishMeal.cs" />
     <Compile Include="Food\Meals\HistoryAutoRecorderWorker_NutrientPaste.cs" />
+    <Compile Include="Food\Meals\HistoryAutoRecorderWorker_SurvivalMeal.cs" />
     <Compile Include="Food\Raw\HistoryAutoRecorderWorker_PlantFood.cs" />
     <Compile Include="Food\Raw\HistoryAutoRecorderWorker_RawFood.cs" />
     <Compile Include="Food\Meals\HistoryAutoRecorderWorker_SimpleMeal.cs" />

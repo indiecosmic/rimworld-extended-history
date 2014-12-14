@@ -27,6 +27,14 @@
   </HistoryAutoRecorderDef>
 
   <HistoryAutoRecorderDef>
+    <defName>SurvivalMealsTotal</defName>
+    <label>packaged survival meals</label>
+    <graphColor>RGBA(0.3, 1, 0, 1)</graphColor>
+    <recordTicksFrequency>10000</recordTicksFrequency>
+    <workerClass>IndieSoft.RimWorld.ExtendedHistory.Food.HistoryAutoRecorderWorker_SurvivalMeal</workerClass>
+  </HistoryAutoRecorderDef>
+
+  <HistoryAutoRecorderDef>
     <defName>LavishMealsTotal</defName>
     <label>lavish meals</label>
     <graphColor>RGBA(0.3, 0.7, 0.7, 1)</graphColor>

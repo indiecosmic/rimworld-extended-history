@@ -7,13 +7,12 @@ using Verse;
 
 namespace IndieSoft.RimWorld.ExtendedHistory.Food
 {
-    public abstract class HistoryAutoRecorderWorker_MealBase : HistoryAutoRecorderWorker
+    public class HistoryAutoRecorderWorker_SurvivalMeal : HistoryAutoRecorderWorker_MealBase
     {
-        protected FoodQuality foodQuality;
-
-        public HistoryAutoRecorderWorker_MealBase(FoodQuality foodQuality)
+        public HistoryAutoRecorderWorker_SurvivalMeal()
+            : base(FoodQuality.MealFine)
         {
-            this.foodQuality = foodQuality;
+
         }
 
         public override float PullRecord()
@@ -24,7 +23,7 @@ namespace IndieSoft.RimWorld.ExtendedHistory.Food
                 if (current.Key.IsFood)
                 {
                     FoodQuality quality = current.Key.food.quality;
-                    if (quality == this.foodQuality)
+                    if (quality == base.foodQuality && current.Key.defName == "MealSurvivalPack")
                     {
                         num += current.Value;
                     }

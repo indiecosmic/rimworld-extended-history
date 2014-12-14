@@ -19,6 +19,7 @@
       <li>NutrientPasteTotal</li>
       <li>SimpleMealsTotal</li>
       <li>FineMealsTotal</li>
+      <li>SurvivalMealsTotal</li>
       <li>LavishMealsTotal</li>
     </historyAutoRecorderDefs>    
   </HistoryAutoRecorderGroupDef>

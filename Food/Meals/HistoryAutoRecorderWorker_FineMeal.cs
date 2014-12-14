@@ -14,5 +14,23 @@ namespace IndieSoft.RimWorld.ExtendedHistory.Food
         {
 
         }
+
+        public override float PullRecord()
+        {
+            float num = 0f;
+            foreach (KeyValuePair<ThingDef, int> current in Find.ResourceCounter.AllCountedAmounts)
+            {
+                if (current.Key.IsFood)
+                {
+                    FoodQuality quality = current.Key.food.quality;
+                    if (quality == base.foodQuality && current.Key.defName != "MealSurvivalPack")
+                    {
+                        num += current.Value;
+                    }
+                }
+            }
+
+            return num;
+        }
     }
 }
