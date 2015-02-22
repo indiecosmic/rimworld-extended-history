@@ -9,11 +9,11 @@ namespace IndieSoft.RimWorld.ExtendedHistory.Food
 {
     public abstract class HistoryAutoRecorderWorker_MealBase : HistoryAutoRecorderWorker
     {
-        protected FoodQuality foodQuality;
+        protected FoodTaste foodTaste;
 
-        public HistoryAutoRecorderWorker_MealBase(FoodQuality foodQuality)
+        public HistoryAutoRecorderWorker_MealBase(FoodTaste foodTaste)
         {
-            this.foodQuality = foodQuality;
+            this.foodTaste = foodTaste;
         }
 
         public override float PullRecord()
@@ -23,8 +23,8 @@ namespace IndieSoft.RimWorld.ExtendedHistory.Food
             {
                 if (current.Key.IsFood)
                 {
-                    FoodQuality quality = current.Key.food.quality;
-                    if (quality == this.foodQuality)
+                    FoodTaste taste = current.Key.ingestible.taste;
+                    if (taste == this.foodTaste)
                     {
                         num += current.Value;
                     }

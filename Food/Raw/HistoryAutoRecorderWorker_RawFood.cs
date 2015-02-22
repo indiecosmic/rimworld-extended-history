@@ -16,7 +16,7 @@ namespace IndieSoft.RimWorld.ExtendedHistory.Food
             {
                 if (current.Key.IsFood)
                 {
-                    if (current.Key.food.isMeat && current.Key.food.quality == FoodQuality.Raw)
+                    if (current.Key.ingestible.isMeat && current.Key.ingestible.taste == FoodTaste.Raw)
                     {
                         num += current.Value;
                     }

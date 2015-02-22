@@ -13,17 +13,20 @@ namespace IndieSoft.RimWorld.ExtendedHistory.Alerts
         {
             get
             {
-                var growingZones = Find.ZoneManager.ZonesOfType<Zone_Growing>();
-
-                foreach (Zone_Growing growingZone in growingZones)
+                var allZones = Find.ZoneManager.AllZones;
+                foreach (Zone zone in allZones)
                 {
-                    foreach (Thing thing in growingZone.AllContainedThings)
+                    if (zone is Zone_Growing)
                     {
-                        if (thing.def.plant != null)
+                        Zone_Growing growingZone = zone as Zone_Growing;
+                        foreach (Thing thing in growingZone.AllContainedThings)
                         {
-                            Plant plant = thing as Plant;
-                            if (plant.LifeStage == PlantLifeStage.Mature && plant.def.plant.Harvestable)
-                                yield return plant;
+                            if (thing.def.plant != null)
+                            {
+                                Plant plant = thing as Plant;
+                                if (plant.LifeStage == PlantLifeStage.Mature && plant.def.plant.Harvestable)
+                                    yield return plant;
+                            }
                         }
                     }
                 }
@@ -33,17 +36,17 @@ namespace IndieSoft.RimWorld.ExtendedHistory.Alerts
                 {
                     foreach (Plant plant in plantGrower.PlantsOnMe)
                     {
-                        if (plant.LifeStage == PlantLifeStage.Mature && plant.def.plant.Harvestable) {
+                        if (plant.LifeStage == PlantLifeStage.Mature && plant.def.plant.Harvestable)
+                        {
                             yield return plant;
                         }
                     }
                 }
-            }  
+            }
         }
 
         public Alert_PlantReadyForHarvest()
         {
-            this.priority = AlertPriority.Medium;
             this.baseLabel = "{0} plants ready for harvest";
         }
 
@@ -84,6 +87,9 @@ namespace IndieSoft.RimWorld.ExtendedHistory.Alerts
             }
         }
 
-
+        public override AlertPriority Priority
+        {
+            get { return AlertPriority.Medium; }
+        }
     }
 }

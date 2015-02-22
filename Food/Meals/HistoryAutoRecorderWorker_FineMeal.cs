@@ -10,7 +10,7 @@ namespace IndieSoft.RimWorld.ExtendedHistory.Food
     public class HistoryAutoRecorderWorker_FineMeal : HistoryAutoRecorderWorker_MealBase
     {
         public HistoryAutoRecorderWorker_FineMeal()
-            : base(FoodQuality.MealFine)
+            : base(FoodTaste.Fine)
         {
 
         }
@@ -22,8 +22,8 @@ namespace IndieSoft.RimWorld.ExtendedHistory.Food
             {
                 if (current.Key.IsFood)
                 {
-                    FoodQuality quality = current.Key.food.quality;
-                    if (quality == base.foodQuality && current.Key.defName != "MealSurvivalPack")
+                    FoodTaste taste = current.Key.ingestible.taste;
+                    if (taste == base.foodTaste && current.Key.defName != "MealSurvivalPack")
                     {
                         num += current.Value;
                     }

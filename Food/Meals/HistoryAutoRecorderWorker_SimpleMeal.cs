@@ -10,7 +10,7 @@ namespace IndieSoft.RimWorld.ExtendedHistory.Food
     public class HistoryAutoRecorderWorker_SimpleMeal : HistoryAutoRecorderWorker_MealBase
     {
         public HistoryAutoRecorderWorker_SimpleMeal()
-            : base(FoodQuality.MealSimple)
+            : base(FoodTaste.Simple)
         {
         }
 

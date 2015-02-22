@@ -11,7 +11,7 @@ namespace IndieSoft.RimWorld.ExtendedHistory.Food
     {
         public override float PullRecord()
         {
-            return Find.ResourceCounter.AllCountedAmounts.Where(r => r.Key.IsFood && r.Key.food.quality == FoodQuality.Raw && r.Key.food.isMeat == false).Sum(f => f.Value);
+            return Find.ResourceCounter.AllCountedAmounts.Where(r => r.Key.IsFood && r.Key.ingestible.taste == FoodTaste.Raw && r.Key.ingestible.isMeat == false).Sum(f => f.Value);
         }
     }
 }

@@ -12,9 +12,7 @@ namespace IndieSoft.RimWorld.ExtendedHistory.Alerts
 
         public Alert_TradeShipInRange()
         {
-            this.priority = AlertPriority.Medium;
             this.baseLabel = "AlertTradeShipInRange".Translate();
-
         }
 
         public override AlertReport Report
@@ -42,6 +40,11 @@ namespace IndieSoft.RimWorld.ExtendedHistory.Alerts
                 }
                 return stringBuilder.ToString();
             }
+        }
+
+        public override AlertPriority Priority
+        {
+            get { return AlertPriority.Medium; }
         }
     }
 }
