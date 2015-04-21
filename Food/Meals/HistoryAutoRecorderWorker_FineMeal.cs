@@ -10,7 +10,7 @@ namespace IndieSoft.RimWorld.ExtendedHistory.Food
     public class HistoryAutoRecorderWorker_FineMeal : HistoryAutoRecorderWorker_MealBase
     {
         public HistoryAutoRecorderWorker_FineMeal()
-            : base(FoodTaste.Fine)
+            : base(AIFoodPreferability.Fine)
         {
 
         }
@@ -20,9 +20,9 @@ namespace IndieSoft.RimWorld.ExtendedHistory.Food
             float num = 0f;
             foreach (KeyValuePair<ThingDef, int> current in Find.ResourceCounter.AllCountedAmounts)
             {
-                if (current.Key.IsFood)
+                if (current.Key.IsNutritionSource)
                 {
-                    FoodTaste taste = current.Key.ingestible.taste;
+                    AIFoodPreferability taste = current.Key.ingestible.preferability;
                     if (taste == base.foodTaste && current.Key.defName != "MealSurvivalPack")
                     {
                         num += current.Value;

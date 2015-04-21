@@ -10,7 +10,7 @@ namespace IndieSoft.RimWorld.ExtendedHistory.Food
     public class HistoryAutoRecorderWorker_NutrientPaste : HistoryAutoRecorderWorker_MealBase
     {
         public HistoryAutoRecorderWorker_NutrientPaste()
-            : base(FoodTaste.Awful)
+            : base(AIFoodPreferability.Awful)
         {
 
         }

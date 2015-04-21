@@ -16,9 +16,9 @@ namespace IndieSoft.RimWorld.ExtendedHistory.Power
             {
                 foreach (CompPowerTrader powerTrader in powerNet.powerComps)
                 {
-                    if (powerTrader.PowerOn && powerTrader.powerOutput < 0f)
+                    if (powerTrader.PowerOn && powerTrader.PowerOutput < 0f)
                     {
-                        num -= powerTrader.powerOutput;
+                        num -= powerTrader.PowerOutput;
                     }
                 }
             }

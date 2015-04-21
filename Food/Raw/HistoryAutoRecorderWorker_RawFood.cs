@@ -14,9 +14,9 @@ namespace IndieSoft.RimWorld.ExtendedHistory.Food
             float num = 0f;
             foreach (KeyValuePair<ThingDef, int> current in Find.ResourceCounter.AllCountedAmounts)
             {
-                if (current.Key.IsFood)
+                if (current.Key.IsNutritionSource)
                 {
-                    if (current.Key.ingestible.isMeat && current.Key.ingestible.taste == FoodTaste.Raw)
+                    if (current.Key.ingestible.IsMeat && current.Key.ingestible.preferability == AIFoodPreferability.Raw)
                     {
                         num += current.Value;
                     }
