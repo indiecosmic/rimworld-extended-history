@@ -1,97 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<HistoryAutoRecorderDefs>
+<Defs>
 
   <!-- Food -->
   <HistoryAutoRecorderDef>
     <defName>NutrientPasteTotal</defName>
     <label>nutrient paste meals</label>
-    <graphColor>RGBA(1, 1, 1, 1)</graphColor>
-    <recordTicksFrequency>10000</recordTicksFrequency>
+    <graphColor>(1, 1, 1, 1)</graphColor>
+    <recordTicksFrequency>1000</recordTicksFrequency>
     <workerClass>IndieSoft.RimWorld.ExtendedHistory.Food.HistoryAutoRecorderWorker_NutrientPaste</workerClass>
+    <graphLabelY>Count</graphLabelY>
   </HistoryAutoRecorderDef>
 
   <HistoryAutoRecorderDef>
     <defName>SimpleMealsTotal</defName>
     <label>simple meals</label>
-    <graphColor>RGBA(1, 1, 0, 1)</graphColor>
-    <recordTicksFrequency>10000</recordTicksFrequency>
+    <graphColor>(1, 1, 0, 1)</graphColor>
+    <recordTicksFrequency>1000</recordTicksFrequency>
     <workerClass>IndieSoft.RimWorld.ExtendedHistory.Food.HistoryAutoRecorderWorker_SimpleMeal</workerClass>
+    <graphLabelY>Count</graphLabelY>
   </HistoryAutoRecorderDef>
 
   <HistoryAutoRecorderDef>
     <defName>FineMealsTotal</defName>
     <label>fine meals</label>
-    <graphColor>RGBA(1, 0.3, 0, 1)</graphColor>
-    <recordTicksFrequency>10000</recordTicksFrequency>
+    <graphColor>(1, 0.3, 0, 1)</graphColor>
+    <recordTicksFrequency>1000</recordTicksFrequency>
     <workerClass>IndieSoft.RimWorld.ExtendedHistory.Food.HistoryAutoRecorderWorker_FineMeal</workerClass>
+    <graphLabelY>Count</graphLabelY>
   </HistoryAutoRecorderDef>
 
   <HistoryAutoRecorderDef>
     <defName>SurvivalMealsTotal</defName>
     <label>packaged survival meals</label>
-    <graphColor>RGBA(0.3, 1, 0, 1)</graphColor>
-    <recordTicksFrequency>10000</recordTicksFrequency>
+    <graphColor>(0.3, 1, 0, 1)</graphColor>
+    <recordTicksFrequency>1000</recordTicksFrequency>
     <workerClass>IndieSoft.RimWorld.ExtendedHistory.Food.HistoryAutoRecorderWorker_SurvivalMeal</workerClass>
+    <graphLabelY>Count</graphLabelY>
   </HistoryAutoRecorderDef>
 
   <HistoryAutoRecorderDef>
     <defName>LavishMealsTotal</defName>
     <label>lavish meals</label>
-    <graphColor>RGBA(0.3, 0.7, 0.7, 1)</graphColor>
-    <recordTicksFrequency>10000</recordTicksFrequency>
+    <graphColor>(0.3, 0.7, 0.7, 1)</graphColor>
+    <recordTicksFrequency>1000</recordTicksFrequency>
     <workerClass>IndieSoft.RimWorld.ExtendedHistory.Food.HistoryAutoRecorderWorker_LavishMeal</workerClass>
+    <graphLabelY>Count</graphLabelY>
   </HistoryAutoRecorderDef>
 
   <HistoryAutoRecorderDef>
-    <defName>RawFoodTotal</defName>
-    <label>meat</label>
-    <graphColor>RGBA(1, 0, 0, 1)</graphColor>
-    <recordTicksFrequency>10000</recordTicksFrequency>
-    <workerClass>IndieSoft.RimWorld.ExtendedHistory.Food.HistoryAutoRecorderWorker_RawFood</workerClass>
+    <defName>PemmicanTotal</defName>
+    <label>pemmican</label>
+    <graphColor>(0, 0.5, 1, 1)</graphColor>
+    <recordTicksFrequency>1000</recordTicksFrequency>
+    <workerClass>IndieSoft.RimWorld.ExtendedHistory.Food.HistoryAutoRecorderWorker_Pemmican</workerClass>
+    <graphLabelY>Count</graphLabelY>
   </HistoryAutoRecorderDef>
 
-  <HistoryAutoRecorderDef>
-    <defName>PlantFoodTotal</defName>
-    <label>plants</label>
-    <graphColor>RGBA(0, 1, 0, 1)</graphColor>
-    <recordTicksFrequency>10000</recordTicksFrequency>
-    <workerClass>IndieSoft.RimWorld.ExtendedHistory.Food.HistoryAutoRecorderWorker_PlantFood</workerClass>
-  </HistoryAutoRecorderDef>
-  <!-- // Food -->
-
-  <!-- Power -->
-  <HistoryAutoRecorderDef>
-    <defName>TransmittedPower</defName>
-    <label>net power (total)</label>
-    <graphColor>RGBA(1, 1, 0, 1)</graphColor>
-    <recordTicksFrequency>10000</recordTicksFrequency>
-    <workerClass>IndieSoft.RimWorld.ExtendedHistory.Power.HistoryAutoRecorderWorker_TransmittedPower</workerClass>
-  </HistoryAutoRecorderDef>
-
-  <HistoryAutoRecorderDef>
-    <defName>StoredPower</defName>
-    <label>Stored power (total)</label>
-    <graphColor>RGBA(0, 0, 1, 1)</graphColor>
-    <recordTicksFrequency>10000</recordTicksFrequency>
-    <workerClass>IndieSoft.RimWorld.ExtendedHistory.Power.HistoryAutoRecorderWorker_StoredPower</workerClass>
-  </HistoryAutoRecorderDef>
-
-  <HistoryAutoRecorderDef>
-    <defName>PowerGenerated</defName>
-    <label>power generated</label>
-    <graphColor>RGBA(0, 1, 0, 1)</graphColor>
-    <recordTicksFrequency>10000</recordTicksFrequency>
-    <workerClass>IndieSoft.RimWorld.ExtendedHistory.Power.HistoryAutoRecorderWorker_PowerGenerated</workerClass>
-  </HistoryAutoRecorderDef>
-
-  <HistoryAutoRecorderDef>
-    <defName>PowerConsumed</defName>
-    <label>power consumed</label>
-    <graphColor>RGBA(1, 0, 0, 1)</graphColor>
-    <recordTicksFrequency>10000</recordTicksFrequency>
-    <workerClass>IndieSoft.RimWorld.ExtendedHistory.Power.HistoryAutoRecorderWorker_PowerConsumed</workerClass>
-  </HistoryAutoRecorderDef>  
-  <!-- // Power -->
-
-
-</HistoryAutoRecorderDefs>
+</Defs>

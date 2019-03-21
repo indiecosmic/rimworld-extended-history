@@ -1,35 +1,29 @@
-﻿using RimWorld;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
+using RimWorld;
 using Verse;
 
 namespace IndieSoft.RimWorld.ExtendedHistory.Food
 {
     public abstract class HistoryAutoRecorderWorker_MealBase : HistoryAutoRecorderWorker
     {
-        protected AIFoodPreferability foodTaste;
+        private readonly ThingDef mealDef;
 
-        public HistoryAutoRecorderWorker_MealBase(AIFoodPreferability foodTaste)
+        public HistoryAutoRecorderWorker_MealBase(ThingDef mealDef)
         {
-            this.foodTaste = foodTaste;
+            this.mealDef = mealDef;
         }
 
         public override float PullRecord()
         {
             float num = 0f;
-            foreach (KeyValuePair<ThingDef, int> current in Find.ResourceCounter.AllCountedAmounts)
+            List<Map> maps = Find.Maps;
+            for (int i = 0; i < maps.Count; i++)
             {
-                if (current.Key.IsNutritionSource)
+                if (maps[i].IsPlayerHome)
                 {
-                    AIFoodPreferability taste = current.Key.ingestible.preferability;
-                    if (taste == this.foodTaste)
-                    {
-                        num += current.Value;
-                    }
+                    num += maps[i].resourceCounter.GetCount(mealDef);
                 }
-            }
+            }           
 
             return num;
         }

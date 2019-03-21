@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2013 for Web
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtendedHistory", "ExtendedHistory.csproj", "{94475ABD-232A-4C95-B3BE-68AAB9D4E320}"
 EndProject
@@ -24,15 +24,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HistoryAutoRecorderGroupDef
 		ExtendedHistory\Defs\HistoryAutoRecorderGroupDefs\HistoryAutoRecorderGroups.xml = ExtendedHistory\Defs\HistoryAutoRecorderGroupDefs\HistoryAutoRecorderGroups.xml
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Languages", "Languages", "{EC7D6D04-C8F7-47AB-A878-58F7C44FB5BD}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "English", "English", "{BA284EDA-CECD-482A-95F6-DC351E6D33CB}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Keyed", "Keyed", "{0594B9AD-8413-4D9A-8622-89B7D9148461}"
-	ProjectSection(SolutionItems) = preProject
-		ExtendedHistory\Languages\English\Keyed\ExtendedHistory.xml = ExtendedHistory\Languages\English\Keyed\ExtendedHistory.xml
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,8 +43,8 @@ Global
 		{A877B048-483C-4919-99A6-D08389B9868B} = {F6D44A63-514E-4E2E-83DB-700A7F110AD9}
 		{8BF6B41D-F0AB-49C8-BA03-0303847410DF} = {A877B048-483C-4919-99A6-D08389B9868B}
 		{DC6FB650-E7A7-43FF-A48A-38AE6677FE72} = {A877B048-483C-4919-99A6-D08389B9868B}
-		{EC7D6D04-C8F7-47AB-A878-58F7C44FB5BD} = {F6D44A63-514E-4E2E-83DB-700A7F110AD9}
-		{BA284EDA-CECD-482A-95F6-DC351E6D33CB} = {EC7D6D04-C8F7-47AB-A878-58F7C44FB5BD}
-		{0594B9AD-8413-4D9A-8622-89B7D9148461} = {BA284EDA-CECD-482A-95F6-DC351E6D33CB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E430F0AE-2005-4400-8AC3-411693C7188F}
 	EndGlobalSection
 EndGlobal

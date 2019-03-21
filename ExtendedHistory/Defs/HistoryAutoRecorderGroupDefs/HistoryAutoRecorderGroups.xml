@@ -1,39 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<HistoryAutoRecorderGroupDefs>
-
-  <HistoryAutoRecorderGroupDef>
-    <defName>RawFood</defName>
-    <label>raw food</label>
-	<graphLabelY>Amount</graphLabelY>
-	<historyAutoRecorderDefs>
-    <li>RawFoodTotal</li>
-    <li>PlantFoodTotal</li>
-	</historyAutoRecorderDefs>
-  </HistoryAutoRecorderGroupDef>
+<Defs>
 
   <HistoryAutoRecorderGroupDef>
     <defName>Meals</defName>
     <label>meals</label>
-    <graphLabelY>Count</graphLabelY>
     <historyAutoRecorderDefs>
       <li>NutrientPasteTotal</li>
       <li>SimpleMealsTotal</li>
       <li>FineMealsTotal</li>
       <li>SurvivalMealsTotal</li>
       <li>LavishMealsTotal</li>
-    </historyAutoRecorderDefs>    
-  </HistoryAutoRecorderGroupDef>
-
-  <HistoryAutoRecorderGroupDef>
-    <defName>Power</defName>
-    <label>Power</label>
-    <graphLabelY>W / Wd</graphLabelY>
-    <historyAutoRecorderDefs>
-      <li>TransmittedPower</li>
-      <li>StoredPower</li>
-      <li>PowerGenerated</li>
-      <li>PowerConsumed</li>
+      <li>PemmicanTotal</li>
     </historyAutoRecorderDefs>
   </HistoryAutoRecorderGroupDef>
-    
-</HistoryAutoRecorderGroupDefs>
+
+</Defs>
