@@ -6,7 +6,7 @@
     <defName>NutrientPasteTotal</defName>
     <label>nutrient paste meals</label>
     <graphColor>(1, 1, 1, 1)</graphColor>
-    <recordTicksFrequency>1000</recordTicksFrequency>
+    <recordTicksFrequency>10000</recordTicksFrequency>
     <workerClass>IndieSoft.RimWorld.ExtendedHistory.Food.HistoryAutoRecorderWorker_NutrientPaste</workerClass>
     <graphLabelY>Count</graphLabelY>
   </HistoryAutoRecorderDef>
@@ -15,7 +15,7 @@
     <defName>SimpleMealsTotal</defName>
     <label>simple meals</label>
     <graphColor>(1, 1, 0, 1)</graphColor>
-    <recordTicksFrequency>1000</recordTicksFrequency>
+    <recordTicksFrequency>10000</recordTicksFrequency>
     <workerClass>IndieSoft.RimWorld.ExtendedHistory.Food.HistoryAutoRecorderWorker_SimpleMeal</workerClass>
     <graphLabelY>Count</graphLabelY>
   </HistoryAutoRecorderDef>
@@ -24,7 +24,7 @@
     <defName>FineMealsTotal</defName>
     <label>fine meals</label>
     <graphColor>(1, 0.3, 0, 1)</graphColor>
-    <recordTicksFrequency>1000</recordTicksFrequency>
+    <recordTicksFrequency>10000</recordTicksFrequency>
     <workerClass>IndieSoft.RimWorld.ExtendedHistory.Food.HistoryAutoRecorderWorker_FineMeal</workerClass>
     <graphLabelY>Count</graphLabelY>
   </HistoryAutoRecorderDef>
@@ -33,7 +33,7 @@
     <defName>SurvivalMealsTotal</defName>
     <label>packaged survival meals</label>
     <graphColor>(0.3, 1, 0, 1)</graphColor>
-    <recordTicksFrequency>1000</recordTicksFrequency>
+    <recordTicksFrequency>10000</recordTicksFrequency>
     <workerClass>IndieSoft.RimWorld.ExtendedHistory.Food.HistoryAutoRecorderWorker_SurvivalMeal</workerClass>
     <graphLabelY>Count</graphLabelY>
   </HistoryAutoRecorderDef>
@@ -42,7 +42,7 @@
     <defName>LavishMealsTotal</defName>
     <label>lavish meals</label>
     <graphColor>(0.3, 0.7, 0.7, 1)</graphColor>
-    <recordTicksFrequency>1000</recordTicksFrequency>
+    <recordTicksFrequency>10000</recordTicksFrequency>
     <workerClass>IndieSoft.RimWorld.ExtendedHistory.Food.HistoryAutoRecorderWorker_LavishMeal</workerClass>
     <graphLabelY>Count</graphLabelY>
   </HistoryAutoRecorderDef>
@@ -51,7 +51,7 @@
     <defName>PemmicanTotal</defName>
     <label>pemmican</label>
     <graphColor>(0, 0.5, 1, 1)</graphColor>
-    <recordTicksFrequency>1000</recordTicksFrequency>
+    <recordTicksFrequency>10000</recordTicksFrequency>
     <workerClass>IndieSoft.RimWorld.ExtendedHistory.Food.HistoryAutoRecorderWorker_Pemmican</workerClass>
     <graphLabelY>Count</graphLabelY>
   </HistoryAutoRecorderDef>
