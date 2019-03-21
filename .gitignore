@@ -228,4 +228,8 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+
+# Visual Studio Code
+.vs/
+
 ExtendedHistory/Assemblies/ExtendedHistory.dll
